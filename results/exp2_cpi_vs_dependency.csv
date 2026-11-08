@@ -1,0 +1,45 @@
+dep_prob,model,cpi,ci95
+0.0,Pipeline without forwarding (stall/nop),1.0,0.0
+0.0,Rearrange without forwarding,1.0,0.0
+0.0,Pipeline with forwarding (A/B/C),1.0,0.0
+0.0,Forwarding + rearrange,1.0,0.0
+0.1,Pipeline without forwarding (stall/nop),1.11185,0.004088827180972305
+0.1,Rearrange without forwarding,1.025775,0.0019845542439736025
+0.1,Pipeline with forwarding (A/B/C),1.013175,0.0011306177443070105
+0.1,Forwarding + rearrange,1.0007000000000001,0.0002666915262716322
+0.2,Pipeline without forwarding (stall/nop),1.22645,0.005594769364336662
+0.2,Rearrange without forwarding,1.070725,0.003481381361987479
+0.2,Pipeline with forwarding (A/B/C),1.023075,0.0014431887029478026
+0.2,Forwarding + rearrange,1.002125,0.00045289948826780205
+0.3,Pipeline without forwarding (stall/nop),1.3192249999999999,0.0061820210944242135
+0.3,Rearrange without forwarding,1.12075,0.00476895785570755
+0.3,Pipeline with forwarding (A/B/C),1.0364,0.0017914847308225623
+0.3,Forwarding + rearrange,1.004,0.0006450280851368477
+0.4,Pipeline without forwarding (stall/nop),1.42235,0.006833015310323514
+0.4,Rearrange without forwarding,1.192675,0.0060826706894963846
+0.4,Pipeline with forwarding (A/B/C),1.04845,0.0021001496594995673
+0.4,Forwarding + rearrange,1.0088,0.000990057248181811
+0.5,Pipeline without forwarding (stall/nop),1.5119749999999998,0.007195339431483905
+0.5,Rearrange without forwarding,1.2718,0.007094734712328513
+0.5,Pipeline with forwarding (A/B/C),1.06115,0.0023354439602023473
+0.5,Forwarding + rearrange,1.01475,0.0012667084215053433
+0.6,Pipeline without forwarding (stall/nop),1.59835,0.007645883754752985
+0.6,Rearrange without forwarding,1.36375,0.007888194632314712
+0.6,Pipeline with forwarding (A/B/C),1.0712000000000002,0.002575102177314874
+0.6,Forwarding + rearrange,1.0223,0.001610832318517105
+0.7,Pipeline without forwarding (stall/nop),1.691975,0.007838510662377266
+0.7,Rearrange without forwarding,1.4774749999999999,0.008963897792328718
+0.7,Pipeline with forwarding (A/B/C),1.0861500000000002,0.0027123498599703976
+0.7,Forwarding + rearrange,1.035475,0.0020457667511962724
+0.8,Pipeline without forwarding (stall/nop),1.777675,0.007778644041673556
+0.8,Rearrange without forwarding,1.589125,0.008953881302691662
+0.8,Pipeline with forwarding (A/B/C),1.098725,0.002960153332747593
+0.8,Forwarding + rearrange,1.0515,0.0024682913991697997
+0.9,Pipeline without forwarding (stall/nop),1.85375,0.008055436535588214
+0.9,Rearrange without forwarding,1.7105,0.00909409143617573
+0.9,Pipeline with forwarding (A/B/C),1.1100750000000001,0.0031259659030311655
+0.9,Forwarding + rearrange,1.070625,0.0027150698867146805
+1.0,Pipeline without forwarding (stall/nop),1.9315,0.008074715023538334
+1.0,Rearrange without forwarding,1.8401500000000002,0.008572295451432673
+1.0,Pipeline with forwarding (A/B/C),1.121575,0.0031621890416715483
+1.0,Forwarding + rearrange,1.0955,0.002955321092771593

@@ -1,0 +1,31 @@
+workload,config,single_ns,pipeline_ns,speedup
+Random (dep. 0.5),Pipeline without forwarding (stall/nop),40.0,18.1713,2.2012734366831213
+Random (dep. 0.5),Rearrange without forwarding,40.0,15.27,2.619515389652914
+Random (dep. 0.5),Pipeline with forwarding (A/B/C),40.0,12.7137,3.146212353602807
+Random (dep. 0.5),Forwarding + rearrange,40.0,12.1725,3.286095707537482
+Random (dep. 0.5),Forwarding + rearrange + 2-bit predictor,40.0,12.1725,3.286095707537482
+for loop (sum i),Pipeline without forwarding (stall/nop),90.0,53.4,1.6853932584269664
+for loop (sum i),Rearrange without forwarding,90.0,53.4,1.6853932584269664
+for loop (sum i),Pipeline with forwarding (A/B/C),90.0,52.199999999999996,1.7241379310344829
+for loop (sum i),Forwarding + rearrange,90.0,52.199999999999996,1.7241379310344829
+for loop (sum i),Forwarding + rearrange + 2-bit predictor,90.0,30.599999999999998,2.9411764705882355
+array sum,Pipeline without forwarding (stall/nop),290.0,209.4,1.384909264565425
+array sum,Rearrange without forwarding,290.0,197.4,1.4690982776089159
+array sum,Pipeline with forwarding (A/B/C),290.0,148.2,1.9568151147098518
+array sum,Forwarding + rearrange,290.0,136.2,2.129221732745962
+array sum,Forwarding + rearrange + 2-bit predictor,290.0,90.6,3.200883002207506
+while loop,Pipeline without forwarding (stall/nop),254.0,190.2,1.3354363827549949
+while loop,Rearrange without forwarding,254.0,181.2,1.401766004415011
+while loop,Pipeline with forwarding (A/B/C),254.0,123.0,2.065040650406504
+while loop,Forwarding + rearrange,254.0,123.0,2.065040650406504
+while loop,Forwarding + rearrange + 2-bit predictor,254.0,89.39999999999999,2.841163310961969
+nested loop (8x8),Pipeline without forwarding (stall/nop),1080.0,880.8,1.226158038147139
+nested loop (8x8),Rearrange without forwarding,1080.0,765.6,1.4106583072100314
+nested loop (8x8),Pipeline with forwarding (A/B/C),1080.0,448.7999999999999,2.406417112299466
+nested loop (8x8),Forwarding + rearrange,1080.0,410.4,2.6315789473684212
+nested loop (8x8),Forwarding + rearrange + 2-bit predictor,1080.0,339.59999999999997,3.180212014134276
+bubble sort,Pipeline without forwarding (stall/nop),1292.0,917.9999999999999,1.4074074074074077
+bubble sort,Rearrange without forwarding,1292.0,917.9999999999999,1.4074074074074077
+bubble sort,Pipeline with forwarding (A/B/C),1292.0,705.6,1.8310657596371882
+bubble sort,Forwarding + rearrange,1292.0,705.6,1.8310657596371882
+bubble sort,Forwarding + rearrange + 2-bit predictor,1292.0,472.80000000000007,2.7326565143824024

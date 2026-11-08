@@ -1,0 +1,9 @@
+group,model,ic,alu_use,load_use,branch
+random,Pipeline without forwarding (stall/nop),40000,0.3527,0.16805,0.0
+loops,Pipeline without forwarding (stall/nop),1503,0.7478376580172987,0.2208915502328676,0.5282767797737857
+random,Rearrange without forwarding,40000,0.185,0.0922,0.0
+loops,Rearrange without forwarding,1503,0.5968063872255489,0.2208915502328676,0.5282767797737857
+random,Pipeline with forwarding (A/B/C),40000,0.0,0.058425,0.0
+loops,Pipeline with forwarding (A/B/C),1503,0.0,0.1104457751164338,0.5282767797737857
+random,Forwarding + rearrange,40000,0.0,0.014175,0.0
+loops,Forwarding + rearrange,1503,0.0,0.054557551563539586,0.5282767797737857

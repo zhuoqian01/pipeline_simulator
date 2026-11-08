@@ -1,0 +1,8 @@
+program,model,cc,penalty,cpi
+ex3_lw_sub_addi_sw_ori,Pipeline without forwarding (stall/nop),13,4,1.80
+ex3_lw_sub_addi_sw_ori,Rearrange without forwarding,9,0,1.00
+ex3_lw_sub_addi_sw_ori,Pipeline with forwarding (A/B/C),10,1,1.20
+ex2_add_sub_and_or,Pipeline without forwarding (stall/nop),10,2,1.50
+ex2_add_sub_and_or,Pipeline with forwarding (A/B/C),8,0,1.00
+ex4_add_lw_sw,Pipeline without forwarding (stall/nop),11,4,2.33
+ex4_add_lw_sw,Pipeline with forwarding (A/B/C),7,0,1.00
